@@ -1,0 +1,22 @@
+{
+  "name": "react-uis-toast",
+  "version": "1.0.0",
+  "description": "React UI component for showing toast message",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coxpert/react-uis-toast.git"
+  },
+  "keywords": [
+    "toast"
+  ],
+  "author": "Alek Smith <alektyler14@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coxpert/react-uis-toast/issues"
+  },
+  "homepage": "https://github.com/coxpert/react-uis-toast#readme"
+}
