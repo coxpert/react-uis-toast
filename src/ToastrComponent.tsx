@@ -3,6 +3,8 @@
  */
 import React, { useEffect, FunctionComponent, memo } from "react";
 
+import "./toastr-style";
+
 export interface ToastProps {
   id: string;
   destroy: () => void;

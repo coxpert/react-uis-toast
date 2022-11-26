@@ -1,4 +1,4 @@
-import Toast, { ToastProps } from "./ToastComponent";
+import Toast, { ToastProps } from "./ToastrComponent";
 
 /**
  * Toaster Manager
