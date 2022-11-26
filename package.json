@@ -4,6 +4,8 @@
   "description": "React UI component for showing toast message",
   "main": "index.js",
   "scripts": {
+    "check": "tsc -p tsconfig.json --noEmit true",
+    "build": "tsc",
     "test": "test"
   },
   "repository": {
