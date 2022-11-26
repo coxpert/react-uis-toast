@@ -1,12 +1,14 @@
 {
   "name": "@react-uis/toastr",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "React UI component for showing toast message",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "check": "tsc -p tsconfig.json --noEmit true",
     "build": "tsc",
-    "test": "test"
+    "test": "test",
+    "publish": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
