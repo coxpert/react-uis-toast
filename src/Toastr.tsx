@@ -14,10 +14,10 @@ interface ToastOptions {
   icon?: JSX.Element;
 }
 
-export default class ToastManager {
+export default class Toastr {
   private readonly containerRef: HTMLDivElement;
   private toasts: ToastProps[] = [];
-  static toast: ToastManager;
+  static toast: Toastr;
 
   constructor() {
     const body = document.getElementsByTagName("body")[0] as HTMLBodyElement;
@@ -29,38 +29,38 @@ export default class ToastManager {
 
   static getInstance() {
     if (!this.toast) {
-      this.toast = new ToastManager();
+      this.toast = new Toastr();
     }
     return this.toast;
   }
 
   static show(options: ToastOptions): void {
     if (!options.type) options.type = "default";
-    ToastManager.getInstance().show(options);
+    Toastr.getInstance().show(options);
   }
 
   static success(options: ToastOptions): void {
     options.type = "success";
-    ToastManager.getInstance().show(options);
+    Toastr.getInstance().show(options);
   }
 
   static error(options: ToastOptions): void {
     options.type = "error";
-    ToastManager.getInstance().show(options);
+    Toastr.getInstance().show(options);
   }
 
   static info(options: ToastOptions): void {
     options.type = "info";
-    ToastManager.getInstance().show(options);
+    Toastr.getInstance().show(options);
   }
 
   static warning(options: ToastOptions): void {
     options.type = "warning";
-    ToastManager.getInstance().show(options);
+    Toastr.getInstance().show(options);
   }
 
   static clear(): void {
-    ToastManager.getInstance().clear();
+    Toastr.getInstance().clear();
   }
 
   public show(options: ToastOptions): void {

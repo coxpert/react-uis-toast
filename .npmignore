@@ -1,5 +1,6 @@
 node_modules
-srctsconfig.json
+src
+tsconfig.json
 .gitignore
 yarn.lock
 test

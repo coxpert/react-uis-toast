@@ -1,1 +1,3 @@
-export * from './Toastr'
+import Toastr from "./Toastr"
+
+export default Toastr
