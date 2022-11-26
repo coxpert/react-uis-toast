@@ -1,6 +1,6 @@
 {
   "name": "@react-uis/toastr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React UI component for showing toast message",
   "main": "index.js",
   "scripts": {
