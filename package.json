@@ -1,5 +1,5 @@
 {
-  "name": "react-uis-toast",
+  "name": "@react-uis/toastr",
   "version": "1.0.0",
   "description": "React UI component for showing toast message",
   "main": "index.js",
